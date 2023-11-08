@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: saddlebrown;
+  padding: 1rem;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+}
+.link {
+  all: unset;
+  font-size: large;
+  cursor: pointer;
+}

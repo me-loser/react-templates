@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: saddlebrown;
+  padding: 1rem;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+}
+.link {
+  all: unset;
+  color: black;
+  font-size: large;
+  cursor: pointer;
+}
+.link.active {
+  color: #ccc;
+}

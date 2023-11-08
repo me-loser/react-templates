@@ -1,0 +1,34 @@
+.card {
+  max-width: 600px;
+  margin: auto;
+  background-color: #ededed;
+  margin-top: 3rem;
+}
+h1,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  padding: 1rem;
+}
+.card img {
+  max-width: 600px;
+}
+.credits {
+  text-align: right;
+  padding: 1rem;
+  border-bottom: 1px solid #d0d0d0;
+}
+.credits a {
+  all: unset;
+  color: #3f4771;
+  font-style: italic;
+  cursor: pointer;
+}
+.card h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem;
+}

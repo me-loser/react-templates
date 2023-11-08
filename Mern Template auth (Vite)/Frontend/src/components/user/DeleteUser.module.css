@@ -1,0 +1,62 @@
+.open-button {
+  all: unset;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.open-button:hover {
+  background-color: #ccc;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgb(0 0 0 / 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+.modal > h1 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.modal > p {
+  font-weight: 300;
+  color: rgb(150, 145, 145);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+.delete-button {
+  all: unset;
+  --color: black;
+  color: var(--color);
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.actions button:nth-child(1) {
+  --color: blue;
+}
+.actions button:nth-child(2) {
+  --color: red;
+}
